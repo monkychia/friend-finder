@@ -1,3 +1,7 @@
+require("dotenv").config();
+var keys = require("./keys");
+var s = keys.sqlDB;
+
 // Dependencies
 var express = require("express");
 var mysql = require("mysql");
@@ -14,7 +18,7 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "", // moved to .env
+  password: s.dbPassword, // moved to .env
   database: "seinfeld_db"
 });
 

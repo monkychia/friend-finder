@@ -8,12 +8,7 @@ module.exports = function(app) {
     });
 
     app.post("/api/friends", function(req, res) {
-        // var userInput = req.body;
-        // console.log(userInput);
-        var userInput = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
-        let blah = friendFilter(userInput);
-        console.log(blah);
-
-        res.json(blah);
+        let userInput = req.body.scores;
+        res.json(friendFilter(userInput));
     });
 }

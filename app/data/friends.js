@@ -81,7 +81,7 @@ let personalityArr = [
     },
     {
         "name": "Sally",
-        "photo": "https://banner2.kisspng.com/20180330/ghe/kisspng-sally-brown-snoopy-charlie-brown-lucy-van-pelt-lin-snoopy-5abe1eb75ae2e4.8700669915224091433723.jpg",
+        "photo": "https://ffw.uol.com.br/app/uploads/noticias/2015/10/sally-brown-giambatista-valli.jpg",
         "scores": [
             2,
             2, 
